@@ -1,0 +1,55 @@
+/* App.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif; /* This is a common font. You can choose one that matches your design */
+  background: #ffffff; /* This is a light gray background, adjust the color to match your design */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App-header {
+  /* Include styles for your header, if you have a navigation bar or a top banner */
+}
+
+.Main-content {
+  text-align: left; /* Aligns text to the left */
+  width: 80%;
+  max-width: 1200px; /* Adjust the width as needed */
+  margin: 2rem auto; /* Centers the main content and adds margin */
+  padding: 0 0rem; /* Adds padding on the sides */
+}
+
+.About-title {
+  font-size: 3rem; /* Adjust the size as needed */
+  color: #333; /* This is a dark gray, almost black color */
+  font-weight: bold; /* Makes the font bold */
+  margin: 1rem 0; /* Adds margin above and below the title */
+  padding: 0 4rem; /* Adds padding on the sides */
+}
+
+p {
+  font-size: 1rem; /* Adjust the size as needed */
+  color: #666; /* This is a medium gray color */
+  line-height: 1.5; /* Adjusts line spacing */
+  margin-bottom: 1rem; /* Adds spacing below each paragraph */
+  padding: 0 4rem; /* Adds padding on the sides */
+}
+
+/* Add responsive design for smaller screens */
+@media (max-width: 768px) {
+  .Main-content {
+    width: 95%;
+  }
+
+  .About-title {
+    font-size: 2.5rem;
+  }
+}
+
+/* Add other specific styles as per the elements in your components */

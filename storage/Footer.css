@@ -1,0 +1,17 @@
+/* Footer.css */
+
+.Footer {
+  background-color: #ffffff; /* Match to your NavBar or as per your design */
+  padding: 1rem 0;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
+.Footer-content p {
+  color: #a9a9a9; /* Adjust the color as needed */
+  margin: 0; /* Removes default paragraph margin */
+  font-size: 1rem; /* Adjust font size as needed */
+}
+
+/* Add more styling as per your need */

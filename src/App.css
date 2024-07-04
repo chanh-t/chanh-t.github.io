@@ -1,55 +1,94 @@
-/* App.css */
-
-body, html {
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  font-family: 'Arial', sans-serif; /* This is a common font. You can choose one that matches your design */
-  background: #ffffff; /* This is a light gray background, adjust the color to match your design */
-}
-
-.App {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  background-color: #f3f4f6; /* Light background color */
+  color: #333;
 }
 
 .App-header {
-  /* Include styles for your header, if you have a navigation bar or a top banner */
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
 }
 
-.Main-content {
-  text-align: left; /* Aligns text to the left */
-  width: 80%;
-  max-width: 1200px; /* Adjust the width as needed */
-  margin: 2rem auto; /* Centers the main content and adds margin */
-  padding: 0 0rem; /* Adds padding on the sides */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
-.About-title {
-  font-size: 3rem; /* Adjust the size as needed */
-  color: #333; /* This is a dark gray, almost black color */
-  font-weight: bold; /* Makes the font bold */
-  margin: 1rem 0; /* Adds margin above and below the title */
-  padding: 0 4rem; /* Adds padding on the sides */
+nav ul li {
+  margin: 0 15px;
 }
 
-p {
-  font-size: 1rem; /* Adjust the size as needed */
-  color: #666; /* This is a medium gray color */
-  line-height: 1.5; /* Adjusts line spacing */
-  margin-bottom: 1rem; /* Adds spacing below each paragraph */
-  padding: 0 4rem; /* Adds padding on the sides */
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-/* Add responsive design for smaller screens */
-@media (max-width: 768px) {
-  .Main-content {
-    width: 95%;
-  }
-
-  .About-title {
-    font-size: 2.5rem;
-  }
+.main {
+  padding: 20px;
+  background-color: #f3f4f6; /* Match the body background color */
 }
 
-/* Add other specific styles as per the elements in your components */
+.about-section {
+  max-width: 1000px;
+  margin: 20px auto; /* Center the sections and add vertical space */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects-section {
+  max-width: 1000px;
+  margin: 20px auto; /* Center the sections and add vertical space */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 20%;
+  margin-right: 20px;
+}
+
+.about-text {
+  max-width: 600px;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-item {
+  background-color: #fff;
+  padding: 15px;
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.App-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}

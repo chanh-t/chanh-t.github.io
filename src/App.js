@@ -30,12 +30,14 @@ function App() {
           <h1>Projects</h1>
           <div className="projects-list">
             <div className="project-item">
-              <h2>Project Title 1</h2>
-              <p>Brief description of the project.</p>
+              <h2>Budget (on Google Sheets)</h2>
+              <p>A simple and fun budgeting system that I can easily parse in the future for 
+                more information about how I spend my money!
+              </p>
             </div>
             <div className="project-item">
-              <h2>Project Title 2</h2>
-              <p>Brief description of the project.</p>
+              <h2>Poker (On Roblox Studio)</h2>
+              <p>A simple poker game made on roblox inspired by PokerNow</p>
             </div>
             {/* Add more project items here */}
           </div>
@@ -43,7 +45,7 @@ function App() {
       </main>
 
       <footer className="App-footer">
-        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+        <p>&copy; 2024 Chanh Truong. All rights reserved.</p>
       </footer>
     </div>
   );

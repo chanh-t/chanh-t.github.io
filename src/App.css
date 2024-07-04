@@ -62,7 +62,7 @@ nav ul li a {
 .profile-photo {
   width: 150px;
   height: 150px;
-  border-radius: 20%;
+  border-radius: 50% 20% / 10% 40%;
   margin-right: 20px;
 }
 

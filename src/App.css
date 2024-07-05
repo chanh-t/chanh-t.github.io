@@ -100,7 +100,19 @@ nav ul li a {
 
 .header-container {
   display: flex;
-  align-items: center; /* Align items vertically in the center */
+  align-items: baseline; /* Align items vertically in the center */
   margin-bottom: -20px;
   padding-bottom: 0px;
+  margin-top: -15px
+}
+
+.header2 {
+  font-size: small;
+  font-weight: 500;
+  padding-left: 5px;
+}
+
+.section-header {
+  font-size:xx-large;
+  margin-top: 0px;
 }

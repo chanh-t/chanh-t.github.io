@@ -17,10 +17,9 @@ function App() {
         <section id="about" className="about-section">
           <h1>About Me</h1>
           <div className="about-content">
-            <img src={"./profile-photo.jpg"} title='A photo of me in 2022 when I was an undergraduate' className="profile-photo" />
+            <img src={"./profile-photo.jpg"} alt="nothing here?" title='A photo of me in 2022 when I was an undergraduate' className="profile-photo" />
             <div className="about-text">
-              <p>I am a recent undergraduate at the University of Washington. I am passionate
-                about Software Engineering and 
+              <p>I am a recent undergraduate at the University of Washington with a degree in Computer Science.
               </p>
             </div>
           </div>
@@ -31,13 +30,24 @@ function App() {
           <div className="projects-list">
             <div className="project-item">
               <h2>Budget (on Google Sheets)</h2>
-              <p>A simple and fun budgeting system that I can easily parse in the future for 
-                more information about how I spend my money!
+              <p>
+                Keeps track of all your recent transactions and gives you useful information about your spending habits.
               </p>
+
+              <h3>Software and Tools</h3>
+              <ul class="custom-list">
+                <li>Languages: TypeScript</li>
+              </ul>
             </div>
             <div className="project-item">
-              <h2>Poker (On Roblox Studio)</h2>
-              <p>A simple poker game made on roblox inspired by PokerNow</p>
+              <h2 className="header2">Poker (On Roblox) </h2>
+              
+              <p>A simple poker game made on Roblox inspired by PokerNow.</p>
+
+              <h3>Software and Tools</h3>
+              <ul class="custom-list">
+                <li>Languages: Lua</li>
+              </ul>
             </div>
             {/* Add more project items here */}
           </div>

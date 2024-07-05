@@ -92,3 +92,15 @@ nav ul li a {
   text-align: center;
   padding: 10px 0;
 }
+
+.date {
+  color: #909090;
+  font-weight: 549;
+}
+
+.header-container {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  margin-bottom: -20px;
+  padding-bottom: 0px;
+}
